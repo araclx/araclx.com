@@ -8,6 +8,6 @@ export default () => (
     <Head>
       <title>About</title>
     </Head>
-    <Intro>About page</Intro>
+    <Intro>WIP</Intro>
   </>
 );

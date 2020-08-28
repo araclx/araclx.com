@@ -12,21 +12,19 @@ export default () => (
     </Head>
 
     <Intro>
-      Opinionated starter by Ueno, using opinionated dependencies 🤪,{' '}
-      <Highlight>TypeScript</Highlight>,&nbsp;
-      <Highlight>SCSS</Highlight>, <Highlight>CSS Modules</Highlight>,{' '}
-      <Highlight>React Hooks</Highlight>,&nbsp;
-      <Highlight>root resolver</Highlight>, <Highlight>code splitting</Highlight> and a lot of love.
+      Araclx is open-source corporation that works,{' '}
+      We're building experimental software based on latest <Highlight>distributed technologies</Highlight>
+      , <Highlight>blockchain</Highlight>, and {' '}
+      <Highlight>artifictial intelligence</Highlight>.
     </Intro>
 
     <BlockText
       heading="Who we are"
       description={
         <>
-          Ueno is a full-service agency, busy designing and building beautiful digital products,
-          brands, and experiences. For more informations go to{' '}
-          <a href="https://ueno.co" target="_blank" rel="noopener noreferrer">
-            ueno.co
+          Aralcx is worldwide open-source corporation, busy on building products that can potentially improve actual world by implementation of transparency with bloackchain usage. We're not a single-product organization - we have plans for building new, better future. For more informations go to{' '}
+          <a href="https://github.com/araclx/manifest" target="_blank" rel="noopener noreferrer">
+            Araclx's manifest
           </a>
           .
         </>

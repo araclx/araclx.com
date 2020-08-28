@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 import Link from 'next/link';
 import styled from 'styled-components';
 
-import StarterLogo from 'assets/svg/starter-logo.svg';
+import StarterLogo from 'assets/svg/araclx-logo.svg';
 
 import { breakpoints, variables } from 'styles/variables';
 import { Container } from 'components/container/Container';
@@ -45,10 +45,9 @@ export const Header = ({ children }: HeaderProps) => (
       <Content>
         <Link href="/">
           <a>
-            <Logo />
+            <StarterLogo></StarterLogo>
           </a>
         </Link>
-
         <Navigation>{children}</Navigation>
       </Content>
     </Container>

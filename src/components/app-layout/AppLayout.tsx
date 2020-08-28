@@ -8,7 +8,7 @@ import Github from 'assets/svg/github.svg';
 import Instagram from 'assets/svg/instagram.svg';
 import Linkedin from 'assets/svg/linkedin.svg';
 import Twitter from 'assets/svg/twitter.svg';
-import Logo from 'assets/svg/ueno-logo.svg';
+import Logo from 'assets/svg/araclx-logo.svg';
 
 import { Footer } from 'components/footer/Footer';
 import { Header } from 'components/header/Header';
@@ -33,8 +33,8 @@ export const AppLayout = ({ children }: AppLayoutProps) => (
 
     <Layout>
       <Header>
-        <HeaderLink name="about" href="/about" />
-        <HeaderLink name="github" href="https://github.com/ueno-llc" icon={<Github />} />
+        <HeaderLink name="About" href="/about" />
+        <HeaderLink name="GitHub" href="https://github.com/araclx" icon={<Github />} />
       </Header>
 
       {children}
@@ -42,12 +42,12 @@ export const AppLayout = ({ children }: AppLayoutProps) => (
       <Footer
         logo={<Logo />}
         social={[
-          { icon: <Dribbble />, to: 'https://dribbble.com/ueno' },
-          { icon: <Twitter />, to: 'https://twitter.com/uenodotco' },
-          { icon: <Github />, to: 'https://github.com/ueno-llc' },
-          { icon: <Instagram />, to: 'https://www.instagram.com/uenodotco' },
-          { icon: <Facebook />, to: 'https://www.facebook.com/uenodotco' },
-          { icon: <Linkedin />, to: 'https://www.linkedin.com/company/ueno' },
+          // { icon: <Dribbble />, to: 'https://dribbble.com/ueno' },
+          // { icon: <Twitter />, to: 'https://twitter.com/araclx' },
+          { icon: <Github />, to: 'https://github.com/araclx' },
+          // { icon: <Instagram />, to: 'https://www.instagram.com/uenodotco' },
+          { icon: <Facebook />, to: 'https://www.facebook.com/araclx' },
+          { icon: <Linkedin />, to: 'https://www.linkedin.com/company/araclx' },
         ]}
       />
 

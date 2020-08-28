@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="30px" viewBox="0 0 70 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>araclx-logo</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g id="logo_araclx" transform="translate(0.000000, 5.000000)" filter="url(#filter-1)">
+                <g>
+                    <ellipse id="Oval" fill="#000000" cx="3.38764045" cy="13.9438202" rx="3.38764045" ry="3.05617978"></ellipse>
+                    <polygon id="Rectangle" fill="#000000" points="6.06741573 5.41644937 9.97829642 0 18 17 11.1620929 17"></polygon>
+                </g>
+            </g>
+            <text id="raclx" font-family="Avenir-Black, Avenir" font-size="22" font-weight="700" fill="#000000">
+                <tspan x="20" y="22">raclx</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
