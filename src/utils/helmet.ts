@@ -1,7 +1,7 @@
 import Favicon from 'assets/images/favicon.png';
-import Share from 'assets/images/share.png';
+// import Share from 'assets/images/share.png';
 
-const title = 'WelcomeIn(araclx)';
+const title = 'Araclx Inc.';
 const description = 'Open-source gateway to world for next generations.';
 
 export const helmet = {
@@ -20,14 +20,14 @@ export const helmet = {
     { name: 'theme-color', content: '#000' },
 
     { property: 'og:title', content: title },
-    { property: 'og:image', content: Share },
-    { property: 'og:image:width', content: '880px' },
-    { property: 'og:image:height', content: '440px' },
+    // { property: 'og:image', content: Share },
+    // { property: 'og:image:width', content: '880px' },
+    // { property: 'og:image:height', content: '440px' },
     { property: 'og:image:alt', content: description },
 
     { name: 'twitter:title', content: title },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:image', content: Share },
+    // { name: 'twitter:card', content: 'summary_large_image' },
+    // { name: 'twitter:image', content: Share },
     { name: 'twitter:site', content: '@ziqiln' },
     { name: 'twitter:creator', content: '@ziqiln' },
     { name: 'twitter:description', content: description },
