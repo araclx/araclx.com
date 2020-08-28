@@ -1,12 +1,12 @@
 import Favicon from 'assets/images/favicon.png';
 import Share from 'assets/images/share.png';
 
-const title = 'Create Ueno App';
-const description = 'The easiest and fastest way to create new projects.';
+const title = 'WelcomeIn(araclx)';
+const description = 'Open-source gateway to world for next generations.';
 
 export const helmet = {
   title,
-  titleTemplate: '%s - Ueno',
+  titleTemplate: '%s - Araclx',
   htmlAttributes: { lang: 'en' },
   meta: [
     { name: 'description', content: description },
@@ -28,8 +28,8 @@ export const helmet = {
     { name: 'twitter:title', content: title },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:image', content: Share },
-    { name: 'twitter:site', content: '@uenodotco' },
-    { name: 'twitter:creator', content: '@uenodotco' },
+    { name: 'twitter:site', content: '@ziqiln' },
+    { name: 'twitter:creator', content: '@ziqiln' },
     { name: 'twitter:description', content: description },
   ],
   link: [{ rel: 'icon', type: 'image/x-icon', href: Favicon }],
